@@ -9,19 +9,15 @@
 </head>
 <body>
 	<header class="header">
-		<div class="header__logo">
-			<a href="#" class="logo-link">
-				<img src="img/logo.png" alt="Весна всегда" class="logo-img">
-			</a>
-		</div>
-		<div class="header__nav">
-			<div class="header__nav-burger"></div>
-		<div>
+		<a href="#" class="logo-link">
+			<img src="img/logo.png" alt="Весна всегда" class="logo-img">
+		</a>
+		<div class="header__nav-burger"></div>
 	</header>
 	<main class="main">
 		<section class="main-frame frame">
 			<div class="frame-content">
-				<h1 class="main-frame_title">Флористика<br> с душой</h1>
+				<h1 class="main-frame_title title">Флористика<br> с душой</h1>
 				<a href="#" class="button main-frame_button">Смотреть работы</a>
 				<ul class="socio-list">
 					<li class="socio-list__item">
@@ -43,13 +39,34 @@
 		<div class="wrapper">
 			<section class="services-frame frame">
 				<div class="frame-content">
-					<h2 class="services-frame_title title">Каталог услуг</h2>
+					<h2 class="services-frame_title subtitle">Каталог услуг</h2>
 					<div class="slider-container">
 						<ul class="slider">
-							<li class="slider-item"><img src="img/services_1.jpg" alt=""></li>
-							<li class="slider-item"><img src="img/services_2.jpg" alt=""></li>
-							<li class="slider-item"><img src="img/services_3.jpg" alt=""></li>
-							<li class="slider-item"><img src="img/services_4.jpg" alt=""></li>
+							<li class="slider-item slider-item-01">
+								<img src="img/services_1.jpg" alt="" class="slider-item__image">
+								<span class="slider-item__header">
+									01
+								</span>
+								<span class="slider-item__text">Букет невесты и свадебное оформление</span>
+							</li>
+							<li class="slider-item slider-item-02">
+								<span class="slider-item__header">
+									02
+								</span>
+								<!-- <img src="../floristry/img/services_2.jpg" alt="" class="slider-item__image"> -->
+							</li>
+							<li class="slider-item slider-item-03">
+								<span class="slider-item__header">
+									03
+								</span>
+								<!-- <img src="../floristry/img/services_3.jpg" alt="" class="slider-item__image"> -->
+							</li>
+							<li class="slider-item slider-item-04">
+								<span class="slider-item__header">
+									04
+								</span>
+								<!-- <img src="../floristry/img/services_4.jpg" alt="" class="slider-item__image"> -->
+							</li>
 						</ul>
 						<ul class="slider-tabs">
 							<li><a class="slider-tab"></a></li>
@@ -59,7 +76,16 @@
 						</ul>
 					</div>
 				</div>
-				
+			</section>
+			<section class="offer-frame frame">
+				<div class="frame-content">
+					<img src="img/offer_img.jpg" alt="" class="offer-img">
+					<h2 class="offer-frame_title subtitle">Акционные предложения</h2>
+					<p class="offer-frame_text text">
+						При заказе свадебного оформления предоставляется скидка на букет невесты и бутоньерку в размере 30%
+					</p>
+					<button class="offer-frame__button button">Заказать оформление</button>
+				</div>
 			</section>
 		</div>
 	</main>
