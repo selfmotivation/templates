@@ -11,7 +11,8 @@ for (burger of burgers) {
 			burger.classList.toggle('nav-burger_active');
 		}
 		document.querySelector('.header').classList.toggle('header_active');
-			burgerMenu.classList.toggle('main-nav_active');
+		burgerMenu.classList.toggle('main-nav_active');
+		document.querySelector('.logo-link').classList.toggle('logo-link_active');
 	}
 }
 
